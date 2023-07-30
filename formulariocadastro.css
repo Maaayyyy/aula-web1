@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(150, 199, 183);
+    justify-content: center;
+}
+
+fieldset {
+    width: 360px;
+    border-radius: 10px;
+    background-color: rgb(153, 196, 182);
+    border: 2px solid black;
+    font-size: 17px;
+}
+
+.slogan {
+    padding: 30px;
+}
+
+.text {
+    padding-top: 10px;
+}
+
+p { 
+    padding: 20px;
+}
+
+.img {
+    height: 70px;
+    width: 70px;
+    align-items: center;
+}
+
+input {
+    height: 25px;
+    border-radius: 5px;
+}
+
+button {
+    font-size: 17px;
+    border-radius: 5px;
+    height: 25px;
+}
+
+

@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar { 
+    display: flex; 
+    height: 80px;
+    background-color:white;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+}
+
+.logo span {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    font-family: 'Roboto', Times, serif;
+}
+
+.navbar img {
+    width: 75px;
+    height: 75px;
+}
+
+.nav-list {
+    display: flex;
+    gap: 40px;  
+}
+
+.nav-list-item {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    font-weight: bold;
+}
+
+.nav-list-item a {
+      text-decoration: none;
+      color: black;
+}
+
+body {
+    background-color: rgb(196, 236, 233);
+     padding: 32px;
+   }
+   @media only screen and (min-width: 1500px){
+    body {
+    flex-direction: row;
+    }
+   }
+   
+   .product-card {
+     width: 200px;
+     height: 250px;
+     border: 1px solid rgba(0, 0, 0, 0.5);
+     border-radius: 8px;
+     overflow: hidden;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     
+   }
+   
+   .product-card img {
+     width: 200px;
+     height: 200px;
+     justify-content: center;
+     align-items: center;
+   }
+   
+   .product-card h2 {
+     height: 100%;
+     padding: 5px;
+     border-top: 1px solid black;
+     background-color: white;
+     text-align: center;
+     display: flex;
+     align-content: center;
+   }
+
+   .produtos {
+    display: flex;
+    grid-template-columns: repeat(5, 360px);
+
+   }
+
+   .divisao {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 35px;
+    gap: 18px;
+   }
+
+   h1 {
+    font-family:'Roboto','Courier New', Courier, monospace;
+    text-align: center;
+    color: rgb(0, 0, 0);
+   }

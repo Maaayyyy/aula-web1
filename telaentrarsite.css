@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(150, 199, 183);
+    justify-content: center;
+}
+
+.slogan {
+    padding: 60px;
+}
+
+.img {
+    height: 70px;
+    width: 70px;
+    align-items: center;
+}
+
+.logo {
+    height: 25px;
+    width: 25px;
+}
+
+button {
+    font-size: 17px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    width: 280px;
+    height: 40px;
+    justify-content: space-evenly;
+}
+
+.entrar {
+    font-size: 17px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 30px;
+    justify-content: space-evenly;
+}
+
+input {
+    font-size: 17px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    width: 280px;
+    height: 40px;
+    text-align: center;
+}
+
+fieldset {
+    width: 360px;
+    border-radius: 10px;
+    border: 2px solid black;
+}

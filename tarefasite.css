@@ -108,3 +108,23 @@ body {
     text-align: center;
     color: rgb(0, 0, 0);
    }
+
+   footer {
+    background-color: white;
+    border-radius: 8px;
+   }
+
+    .imagem {
+    width: 75px;
+    height: 75px;
+    }
+
+    .inicio {
+        justify-content: space-between;
+        display: flex;
+    }
+
+    .redesocial {
+        width: 30px;
+        height: 30px;
+    }

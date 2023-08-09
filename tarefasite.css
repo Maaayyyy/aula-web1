@@ -120,11 +120,22 @@ body {
     }
 
     .inicio {
-        justify-content: space-between;
+        justify-content: space-around;
         display: flex;
+        align-items: center;
     }
 
     .redesocial {
         width: 30px;
         height: 30px;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .elementos {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
     }

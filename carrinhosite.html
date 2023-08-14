@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="carrinhosite.css">
+    <script async src="site.js"></script>
+</head>
+<body>
+    <section>
+        <h1 class="product-title">Carrinho</h1>
+
+        <table class="cart-table">
+            <thead>
+                <tr>
+                    <th class="table-item first">Item</th>
+                    <th class="table-item second">Preço</th>
+                    <th class="table-item third">Quantidade</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="cart-product">
+                    <td class="product-identification">
+                        <img class="product-cart-image" src="https://livrariacultura.vteximg.com.br/arquivos/ids/156056120-300-300/2112335491.jpg?v=638210719994400000" alt="Livro é assim que acaba">
+                        <strong class="product-cart-title">É assim que acaba</strong>
+                    </td>
+                    <td>
+                        <span class="cart-price">R$37,90</span>
+                    </td>
+                    <td>
+                        <input class="product-qtd" type="number" value="2" min="0">
+                        <button class="product-remove" type="button">Remover</button>
+                    </td>
+                </tr>
+                <tr class="cart-product">
+                    <td class="product-identification">
+                        <img class="product-cart-image" src="https://livrariacultura.vteximg.com.br/arquivos/ids/148178764-300-300/46097192.jpg?v=638144299800870000" alt="Livro corte de espinhos e rosas">
+                        <strong class="product-cart-title">Corte de espinhos e rosas</strong>
+                    </td>
+                    <td>
+                        <span class="cart-price">R$35,99</span>
+                    </td>
+                    <td>
+                        <input class="product-qtd" type="number" value="1" min="0">
+                        <button class="product-remove" type="button">Remover</button>
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3" class="cart-total">
+                        <strong>Total</strong>
+                        <span>R$111,79</span>
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+
+            <button class="button-finalizar" type="button">Finalizar compra></button>
+    </section>
+
+</body>
+</html>

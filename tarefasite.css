@@ -63,22 +63,16 @@ body {
    
    .product-card {
      width: 200px;
-     height: 250px;
+     height: 300px;
      border: 1px solid rgba(0, 0, 0, 0.5);
      border-radius: 8px;
      overflow: hidden;
      display: flex;
      flex-direction: column;
      justify-content: space-around;
-     
+     background-color: white;
    }
    
-   .product-card img {
-     width: 200px;
-     height: 200px;
-     justify-content: center;
-     align-items: center;
-   }
    
    .product-card h2 {
      height: 100%;
@@ -88,6 +82,8 @@ body {
      text-align: center;
      display: flex;
      align-content: center;
+     justify-content: center;
+     flex-wrap: wrap;
    }
 
    .produtos {
@@ -138,4 +134,49 @@ body {
         justify-content: center;
         text-align: center;
         flex-direction: column;
+    }
+
+    .preco {
+        width: 80px;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: 0.2s;
+    }
+
+    .carrinho {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        border-radius: 8px;
+        justify-content: center;
+        cursor: pointer;
+        transition: 0.2s;
+    }
+
+    .juncao {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .itens {
+        background-color: #f0f0f0;
+        color: black;
+        border-radius: 8px;
+        width: 100px;
+        height: 35px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: 0.2s;
+    }
+
+    .itens:hover {
+        background-color: transparent;
+    }
+
+    .preco:hover {
+        background-color: transparent;
+    }
+
+    .carrinho:hover {
+        background-color: transparent;
     }
